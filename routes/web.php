@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-    // echo date('Y-m-d H:i:s');
+    // return view('welcome');
+    echo date('Y-m-d H:i:s');
 });
